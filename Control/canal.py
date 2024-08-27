@@ -20,7 +20,7 @@ response = """
     <title>Hello World</title>
 </head>
 <body>
-    <h1 id="greeting"></h1>
+    <h1 id="prueba3"></h1>
 
     <!-- Link to the external JavaScript file -->
     <script src="https://caroldayanreyes.github.io/Micros2/Control/prueba3.js"></script>
