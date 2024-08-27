@@ -3,7 +3,7 @@ import wifi
 
 URL_other='https://raw.githubusercontent.com'
 
-wifi.radio.connect("Ejemplo","12345678")
+wifi.radio.connect("Juanes","juanes123")
 pool=socketpool.SocketPool(wifi.radio)
 
 print("wifi.radio",wifi.radio.hostname, wifi.radio.ipv4_address)
@@ -23,7 +23,7 @@ response = """
     <h1 id="greeting"></h1>
 
     <!-- Link to the external JavaScript file -->
-    <script src="https://gerardomunoz.github.io/uC_web_server/RPiPicoCircuitPython/web_server_jsfile/greeting.js"></script>
+    <script src="https://caroldayanreyes.github.io/Micros2/Control/prueba3.js"></script>
 </body>
 </html>
 """
