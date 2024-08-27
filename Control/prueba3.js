@@ -1,3 +1,4 @@
+/*
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -197,8 +198,8 @@
             <button onclick="adjustSpeed('up')">+</button>
         </div>
     </div>
-
     <script>
+/*
         let speed = 0;
         const speedIncrement = 1;
         const maxSpeed = 10;
@@ -246,6 +247,10 @@
                 rightWheel.style.animation = 'none';
             }
         }
+        
+/*
     </script>
 </body>
 </html>
+
+/*
