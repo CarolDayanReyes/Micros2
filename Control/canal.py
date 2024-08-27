@@ -1,7 +1,7 @@
 import socketpool
 import wifi
 
-URL_other='https://raw.githubusercontent.com'
+URL_other='https://caroldayanreyes.github.io'
 
 wifi.radio.connect("Juanes","juanes123")
 pool=socketpool.SocketPool(wifi.radio)
