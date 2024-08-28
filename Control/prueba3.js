@@ -26,7 +26,7 @@
             width: 250%;
             height: auto;
             position: relative;
-            left: -4.5cm; /* Mueve la imagen 2 cm a la izquierda */
+            left: -4.5cm; 
         }
         .wheel {
             position: absolute;
@@ -66,8 +66,8 @@
             gap: 10px;
             padding: 10px;
             position: absolute;
-            left: 80px; /* Mueve hacia la derecha */
-            top: 80px; /* Mueve hacia arriba */
+            left: 80px; 
+            top: 80px; 
         }
         .action-buttons .row {
             display: flex;
@@ -81,16 +81,16 @@
             font-size: 20px;
             text-align: center;
             position: absolute;
-            left: 280px; /* Mueve hacia la derecha */
-            top: 150px; /* Mueve hacia arriba */
+            left: 280px; 
+            top: 150px; 
         }
         .speed-control {
             display: flex;
             align-items: center;
             gap: 5px;
             position: absolute;
-            left: 435px; /* Mueve hacia la derecha */
-            top: 142px; /* Mueve hacia arriba */
+            left: 435px; 
+            top: 142px; 
         }
         button {
             width: 50px;
@@ -141,8 +141,8 @@
             background-color: #007bff;
             box-shadow: 0 4px #0056b3, 0 -2px #0056b3 inset;
             position: absolute;
-            top: 110px; /* Ajustado para bajar 2 cm */
-            left: 65px; /* Ajustado para mantener la alineación central */
+            top: 110px; 
+            left: 65px; 
         }
         .stop-button:active {
             background-color: #0056b3;
@@ -150,17 +150,17 @@
         }
         .right-button {
             position: absolute;
-            left: 120px; /* Ajustado para mover 2 cm a la derecha */
+            left: 120px; 
             top: 64px;
         }
         .up-button {
             position: absolute;
-            left: 65px; /* Ajustado para mover 2 cm a la derecha */
+            left: 65px; 
             top: 20px;
         }
         .left-button {
             position: absolute;
-            left: 10px; /* Ajustado para mover 1 cm a la derecha */
+            left: 10px; 
             top: 64px;
         }
 
@@ -199,7 +199,7 @@
         </div>
     </div>
     <script>
-/*
+*/
         let speed = 0;
         const speedIncrement = 1;
         const maxSpeed = 10;
@@ -253,4 +253,4 @@
 </body>
 </html>
 
-/*
+*/
